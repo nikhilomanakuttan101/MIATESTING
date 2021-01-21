@@ -200,7 +200,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Add Me To Your Group ",
+                            text=" 👑 Add Me ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/Randibot_robot?start=help"),
+                            url="https://t.me/missmiakhalifabot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Get Started ",
                              url="https://t.me/Gamerzbots/116")        
